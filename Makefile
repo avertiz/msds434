@@ -6,4 +6,4 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	pylint --disable=R,C 
+	pylint --disable=R,C test.py
